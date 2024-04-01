@@ -45,6 +45,7 @@ export const CreateModalWithUploadZones = ({ initialParentId }: { initialParentI
             companyId,
             parentId,
           });
+          setUploadModalState({ parent_id: '', open: false });
         }}
       />
       <UploadZone
@@ -63,6 +64,7 @@ export const CreateModalWithUploadZones = ({ initialParentId }: { initialParentI
             companyId,
             parentId,
           });
+          setUploadModalState({ parent_id: '', open: false });
         }}
       />
       <CreateModal

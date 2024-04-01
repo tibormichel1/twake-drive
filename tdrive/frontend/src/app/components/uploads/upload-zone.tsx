@@ -68,13 +68,10 @@ export default class UploadZone extends React.Component<PropsType, StateType> {
   }
 
   open() {
-    console.log("OPEN");
     if (this.props.disabled) {
       return;
     }
-
     this.setCallback();
-
     this.file_input.click();
   }
 
